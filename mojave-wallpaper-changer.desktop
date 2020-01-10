@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Mojave Live Wallpaper
+Comment=Mojave's live wallpaper, dynamically changing throughout the day.
+Exec=sh -c "$HOME/.local/bin/mojave-wallpaper-changer.py &"
+Hidden=false
+NoDisplay=false
+Terminal=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=1
+X-GNOME-Autostart-Phase=Desktop
